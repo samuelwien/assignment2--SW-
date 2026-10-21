@@ -33,3 +33,14 @@ boxplot(
   ylab = "Body mass (grams)",
   col = "lightblue"
 )
+
+
+#edit under branch
+
+hist(
+  penguins$flipper_length_mm,
+  main = "Distribution of Penguin Flipper Length",
+  xlab = "Flipper length (mm)",
+  col = "lightblue",
+  border = "white"
+)
