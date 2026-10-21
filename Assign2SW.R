@@ -44,3 +44,8 @@ hist(
   col = "lightblue",
   border = "white"
 )
+
+require(ggplot2)
+
+ggplot(data=penguins)+
+  geom_boxplot(aes(x=island, y=body_mass_g, fill=island))
